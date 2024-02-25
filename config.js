@@ -12,11 +12,11 @@ module.exports = {
 	defaultVolume: 100, //- Sets the default volume of the bot, You can change this number anywhere from 1 to 100
 	supportServer: "https://discord.gg/", //- Support Server Link
 	Issues: "https://github.com/SudhanPlayz/Discord-MusicBot/issues", //- Bug Report Link
-	permissions: 49451715850096, //- Bot Inviting Permissions
+	permissions: 49451715850065, //- Bot Inviting Permissions
 	disconnectTime: 30000, //- How long should the bot wait before disconnecting from the voice channel (in miliseconds). Set to 1 for instant disconnect.
-	twentyFourSeven: false, //- When set to true, the bot will never disconnect from the voice channel
+	twentyFourSeven: true, //- When set to true, the bot will never disconnect from the voice channel
 	autoQueue: false, //- When set to true, related songs will automatically be added to the queue
-	autoPause: true, //- When set to true, music will automatically be paused if everyone leaves the voice channel
+	autoPause: false, //- When set to true, music will automatically be paused if everyone leaves the voice channel
 	autoLeave: false, //- When set to true, the bot will automatically leave when no one is in the voice channel (can be combined with 24/7 to always be in voice channel until everyone leaves; if 24/7 is on disconnectTime will add a disconnect delay after everyone leaves.)
 	debug: true, //- Debug mode
 	cookieSecret: "CodingWithSudhan is epic", //- Cookie Secret
